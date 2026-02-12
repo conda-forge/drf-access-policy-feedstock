@@ -32,7 +32,7 @@ tests:
       imports:
         - rest_access_policy
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version: ${{ python_min }}.*
 
 about:
   summary: "Declarative access policies/permissions modeled after AWS' IAM policies."
